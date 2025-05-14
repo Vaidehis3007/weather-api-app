@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const descriptionDisplay = document.getElementById("description");
   const errorMessage = document.getElementById("error-messag");
 
-  const API_KEY = "5f56d525d1619d0a2cd2eac4ce55588e"; //env variables
+  const API_KEY = "aaac5c293d46dad9221293bd7ba91807"; //env variables
 
   getWeatherBtn.addEventListener("click", async () => {
     const city = cityInput.value.trim();
